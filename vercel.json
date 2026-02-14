@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/app1/:path*", "destination": "http://157.245.72.13:8080/:path*" },
+    { "source": "/app2/:path*", "destination": "http://157.245.72.13:8081/:path*" }
+  ]
+}
